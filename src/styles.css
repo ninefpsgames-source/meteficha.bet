@@ -1,0 +1,50 @@
+@import "tailwindcss";
+@import url("https://fonts.googleapis.com/css2?family=Rajdhani:wght@500;600;700&family=Oswald:wght@500;600;700&display=swap");
+
+:root {
+  --background: 0 0% 6%;
+  --foreground: 40 30% 96%;
+  --card: 0 0% 10%;
+  --card-foreground: 40 30% 96%;
+  --primary: 45 90% 55%;
+  --primary-foreground: 0 0% 8%;
+  --secondary: 150 35% 16%;
+  --secondary-foreground: 40 30% 96%;
+  --muted: 0 0% 15%;
+  --muted-foreground: 40 10% 65%;
+  --accent: 0 70% 48%;
+  --accent-foreground: 40 30% 96%;
+  --border: 0 0% 18%;
+  --input: 0 0% 18%;
+  --ring: 45 90% 55%;
+  --radius: 0.9rem;
+}
+
+@theme inline {
+  --color-background: hsl(var(--background));
+  --color-foreground: hsl(var(--foreground));
+  --color-card: hsl(var(--card));
+  --color-card-foreground: hsl(var(--card-foreground));
+  --color-primary: hsl(var(--primary));
+  --color-primary-foreground: hsl(var(--primary-foreground));
+  --color-secondary: hsl(var(--secondary));
+  --color-secondary-foreground: hsl(var(--secondary-foreground));
+  --color-muted: hsl(var(--muted));
+  --color-muted-foreground: hsl(var(--muted-foreground));
+  --color-accent: hsl(var(--accent));
+  --color-accent-foreground: hsl(var(--accent-foreground));
+  --color-border: hsl(var(--border));
+  --color-input: hsl(var(--input));
+  --color-ring: hsl(var(--ring));
+  --radius: var(--radius);
+  --font-display: "Oswald", sans-serif;
+  --font-sans: "Rajdhani", sans-serif;
+}
+
+body {
+  font-family: var(--font-sans);
+}
+
+.font-display {
+  font-family: var(--font-display);
+}

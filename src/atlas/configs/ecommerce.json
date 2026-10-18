@@ -1,0 +1,67 @@
+{
+  "schemaVersion": 1,
+  "templateId": "ecommerce",
+  "locale": "pt-BR",
+  "branding": {
+    "name": "FORMA",
+    "shortName": "F",
+    "tagline": "MENOS RUÍDO. MAIS DESIGN."
+  },
+  "theme": {
+    "mode": "light",
+    "accent": "#d76335",
+    "accentText": "#ffffff",
+    "background": "#faf8f4",
+    "surface": "#ffffff",
+    "text": "#18232d",
+    "muted": "#73808e",
+    "line": "#152a3b12",
+    "serif": false,
+    "radius": 14
+  },
+  "content": {
+    "headline": "O essencial.\nExtraordinário.",
+    "description": "Objetos que combinam função, presença e um bom motivo para ficar.",
+    "eyebrow": "MENOS RUÍDO. MAIS DESIGN.",
+    "cta": "Começar agora",
+    "heroImage": "product.webp"
+  },
+  "collections": {
+    "products": [
+      {
+        "id": "1",
+        "title": "Fone Studio One",
+        "category": "Áudio",
+        "price": 689,
+        "image": "product.webp",
+        "tag": "Escolha da casa",
+        "description": "Design sem excessos e conforto para acompanhar o seu ritmo."
+      },
+      {
+        "id": "2",
+        "title": "Studio One · Ivory",
+        "category": "Áudio",
+        "price": 749,
+        "image": "product.webp",
+        "tag": "Nova cor",
+        "description": "Acabamento claro e uma presença discreta."
+      },
+      {
+        "id": "3",
+        "title": "Kit Ritual",
+        "category": "Lifestyle",
+        "price": 159,
+        "image": "beauty.webp",
+        "description": "Uma pausa cuidadosa para a sua rotina."
+      },
+      {
+        "id": "4",
+        "title": "Objeto Fluxo",
+        "category": "Decoração",
+        "price": 239,
+        "image": "abstract.webp",
+        "description": "Uma peça de design para reinventar seu espaço."
+      }
+    ]
+  }
+}
